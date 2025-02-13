@@ -3,7 +3,7 @@ package org.example;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TemperatureConverterTest {
-
+TemperatureConverter temperatureConverter = new TemperatureConverter();
         @org.junit.jupiter.api.Test
         void celsiusToFahrenheit() {
             assertEquals(32, TemperatureConverter.celsiusToFahrenheit(0));
